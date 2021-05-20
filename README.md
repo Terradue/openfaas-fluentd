@@ -93,14 +93,6 @@ class HostnameFilter(logging.Filter):
         return True
 
 
-class HostnameFilter(logging.Filter):
-    hostname = platform.node()
-
-    def filter(self, record):
-        record.hostname = HostnameFilter.hostname
-        return True
-
-
 logger = logging.getLogger("name")
 logger.setLevel(logging.DEBUG)
 
