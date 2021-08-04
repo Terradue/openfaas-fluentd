@@ -32,7 +32,7 @@ RUN apt-get update                                                              
     chown -R 1002:1002 /var/log/td-agent/
     
 
-COPY td-agent.conf /etc/td-agent/td-agent.conf
+COPY function/td-agent.conf /etc/td-agent/td-agent.conf
 
 USER app
 
