@@ -13,7 +13,7 @@ Templates available in this repository:
 $ faas template pull https://github.com/terradue/openfaas-fluentd
 ```
 
-## Using the python3-fastapi-conda templates
+## Using the openfaas-fluentd template
 
 Create a new function
 
